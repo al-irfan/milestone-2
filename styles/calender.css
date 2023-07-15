@@ -1,0 +1,26 @@
+.heading {
+  text-align: center;
+  background-color: bisque;
+  font-size: 2em;
+}
+.calender {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+.dates,
+.days {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 50px;
+  background-color: rgb(142, 148, 209);
+  border-radius: 5px;
+  font-size: 1.5em;
+}
+.days {
+  background-color: lightgrey;
+  font-size: 1em;
+  height: 30px;
+}
